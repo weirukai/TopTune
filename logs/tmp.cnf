@@ -1,0 +1,120 @@
+# For advice on how to change settings please see
+# http://dev.mysql.com/doc/refman/5.7/en/server-configuration-defaults.html
+
+[mysqld]
+user=mysql
+#
+# Remove leading # and set to the amount of RAM for the most important data
+# cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.
+# innodb_buffer_pool_size = 128M
+#
+# Remove leading # to turn on a very important data integrity option: logging
+# changes to the binary log between backups.
+# log_bin
+server-id=153
+# Remove leading # to set options mainly useful for reporting servers.
+# The server defaults are faster for transactions and fast SELECTs.
+# Adjust sizes as needed, experiment to find the optimal values.
+# join_buffer_size = 128M
+# sort_buffer_size = 2M
+# read_rnd_buffer_size = 2M
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+max_prepared_stmt_count=500000
+max_connections=1000
+query_prealloc_size		= 133357191
+innodb_log_file_size		= 922269907
+innodb_buffer_pool_size		= 12542599914
+connect_timeout		= 25277723
+max_write_lock_count		= 6587966011332239000
+max_digest_length		= 6723
+net_buffer_length		= 998224
+key_cache_block_size		= 515
+innodb_commit_concurrency		= 995
+innodb_flushing_avg_loops		= 885
+tmp_table_size		= 101687135
+binlog_group_commit_sync_delay		= 993589
+max_connections		= 16791
+innodb_max_dirty_pages_pct_lwm		= 88
+read_buffer_size		= 2135750735
+max_user_connections		= 4267428427
+innodb_replication_delay		= 4208
+binlog_cache_size		= 3442637532
+innodb_compression_failure_threshold_pct		= 100
+innodb_lru_scan_depth		= 1536
+innodb_purge_batch_size		= 4108
+innodb_log_buffer_size		= 3528700824
+innodb_ft_sort_pll_degree		= 16
+binlog_stmt_cache_size		= 3888222852
+innodb_stats_transient_sample_pages		= 18
+innodb_open_files		= 562540
+innodb_max_purge_lag_delay		= 2066
+max_heap_table_size		= 1073519916
+innodb_max_purge_lag		= 2487506821
+innodb_io_capacity_max		= 355
+expire_logs_days		= 2
+query_cache_min_res_unit		= 56328
+innodb_online_alter_log_max_size		= 15349497571566718000
+transaction_prealloc_size		= 107869
+max_binlog_size		= 783023631
+key_cache_division_limit		= 12
+query_cache_size		= 1764327027
+innodb_io_capacity		= 1987177
+preload_buffer_size		= 685627758
+innodb_read_io_threads		= 64
+innodb_change_buffer_max_size		= 18
+innodb_concurrency_tickets		= 4193073508
+group_concat_max_len		= 6587950271096490000
+innodb_thread_concurrency		= 178
+innodb_sort_buffer_size		= 11322116
+table_open_cache		= 67689
+table_definition_cache		= 3759
+range_alloc_block_size		= 4489
+innodb_read_ahead_threshold		= 63
+query_cache_limit		= 86283967
+open_files_limit		= 477912
+div_precision_increment		= 25
+thread_cache_size		= 5851
+innodb_log_write_ahead_size		= 10647
+innodb_adaptive_max_sleep_delay		= 23724
+table_open_cache_instances		= 13
+key_cache_age_threshold		= 291
+net_write_timeout		= 17
+innodb_autoextend_increment		= 802
+max_binlog_cache_size		= 2612472701194480000
+stored_program_cache		= 303658
+max_prepared_stmt_count		= 777310
+innodb_sync_spin_loops		= 163
+join_buffer_size		= 685627434
+max_allowed_packet		= 213083465
+innodb_doublewrite		= OFF
+innodb_change_buffering		= none
+innodb_table_locks		= ON
+session_track_schema		= OFF
+innodb_default_row_format		= REDUNDANT
+binlog_rows_query_log_events		= OFF
+innodb_stats_method		= nulls_ignored
+binlog_row_image		= minimal
+general_log		= OFF
+log_output		= FILE
+skip_name_resolve		= OFF
+require_secure_transport		= OFF
+autocommit		= ON
+concurrent_insert		= ALWAYS
+session_track_gtids		= OWN_GTID
+innodb_flush_log_at_trx_commit		= 0
+innodb_strict_mode		= ON
+innodb_undo_log_truncate		= ON
+explicit_defaults_for_timestamp		= ON
+innodb_disable_sort_file_cache		= OFF
+updatable_views_with_limit		= YES
+mysql_native_password_proxy_users		= OFF
+innodb_use_native_aio		= ON
+local_infile		= ON
+innodb_file_per_table		= OFF

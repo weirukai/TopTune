@@ -1,0 +1,242 @@
+{
+  "query_prealloc_size": {
+    "default": 8192,
+    "dynamic": "Yes",
+    "max": 134217728,
+    "min": 8192,
+    "scope": "Global, Session",
+    "type": "integer"
+  },
+  "innodb_thread_concurrency": {
+    "default": 0,
+    "dynamic": "Yes",
+    "max": 1000,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "innodb_io_capacity_max": {
+    "default": 400,
+    "dynamic": "Yes",
+    "max": 40000,
+    "min": 100,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "innodb_ft_min_token_size": {
+    "default": 3,
+    "dynamic": "No",
+    "max": 16,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "innodb_sort_buffer_size": {
+    "default": 1048576,
+    "dynamic": "No",
+    "max": 67108864,
+    "min": 65536,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "ngram_token_size": {
+    "default": 2,
+    "dynamic": "No",
+    "max": 10,
+    "min": 1,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "innodb_max_dirty_pages_pct_lwm": {
+    "default": 0,
+    "dynamic": "Yes",
+    "max": 99,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "ft_min_word_len": {
+    "default": 4,
+    "dynamic": "No",
+    "max": 8,
+    "min": 1,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "net_read_timeout": {
+    "default": 30,
+    "dynamic": "Yes",
+    "max": 60,
+    "min": 1,
+    "scope": "Global, Session",
+    "type": "integer"
+  },
+  "innodb_log_files_in_group": {
+    "default": 2,
+    "dynamic": "No",
+    "max": 10,
+    "min": 2,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "max_sort_length": {
+    "default": 1024,
+    "dynamic": "Yes",
+    "max": 8388608,
+    "min": 4,
+    "scope": "Global, Session",
+    "type": "integer"
+  },
+  "sync_binlog": {
+    "default": 1,
+    "dynamic": "Yes",
+    "max": 4294967295,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "binlog_stmt_cache_size": {
+    "default": 32768,
+    "dynamic": "Yes",
+    "max": 4294967296,
+    "min": 4096,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "multi_range_count": {
+    "default": 256,
+    "dynamic": "Yes",
+    "max": 4294967295,
+    "min": 1,
+    "scope": "Global, Session",
+    "type": "integer"
+  },
+  "innodb_read_ahead_threshold": {
+    "default": 56,
+    "dynamic": "Yes",
+    "max": 64,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "innodb_flushing_avg_loops": {
+    "default": 30,
+    "dynamic": "Yes",
+    "max": 1000,
+    "min": 1,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "binlog_group_commit_sync_no_delay_count": {
+    "default": 0,
+    "dynamic": "Yes",
+    "max": 100000,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "innodb_api_bk_commit_interval": {
+    "default": 5,
+    "dynamic": "Yes",
+    "max": 1073741824,
+    "min": 1,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "max_digest_length": {
+    "default": 1024,
+    "dynamic": "No",
+    "max": 1048576,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "max_delayed_threads": {
+    "default": 20,
+    "dynamic": "Yes",
+    "max": 16384,
+    "min": 0,
+    "scope": "Global, Session",
+    "type": "integer"
+  },
+  "key_buffer_size": {
+    "default": 8388608,
+    "dynamic": "Yes",
+    "max": 17179869184,
+    "min": 8,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "query_alloc_block_size": {
+    "default": 8192,
+    "dynamic": "Yes",
+    "max": 134217728,
+    "min": 1024,
+    "scope": "Global, Session",
+    "type": "integer"
+  },
+  "innodb_read_io_threads": {
+    "default": 4,
+    "dynamic": "No",
+    "max": 64,
+    "min": 1,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "innodb_purge_threads": {
+    "default": 4,
+    "dynamic": "No",
+    "max": 32,
+    "min": 1,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "innodb_sync_spin_loops": {
+    "default": 30,
+    "dynamic": "Yes",
+    "max": 60,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "read_buffer_size": {
+    "default": 131072,
+    "dynamic": "Yes",
+    "max": 2147479552,
+    "min": 8192,
+    "scope": "Global, Session",
+    "type": "integer"
+  },
+  "sort_buffer_size": {
+    "default": 262144,
+    "dynamic": "Yes",
+    "max": 134217728,
+    "min": 32768,
+    "scope": "Global, Session",
+    "type": "integer"
+  },
+  "query_cache_size": {
+    "default": 1048576,
+    "dynamic": "Yes",
+    "max": 2147483648,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "innodb_spin_wait_delay": {
+    "default": 6,
+    "dynamic": "Yes",
+    "max": 10,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  },
+  "query_cache_limit": {
+    "default": 1048576,
+    "dynamic": "Yes",
+    "max": 134217728,
+    "min": 0,
+    "scope": "Global",
+    "type": "integer"
+  }
+}

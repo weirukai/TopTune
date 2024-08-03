@@ -1,0 +1,306 @@
+{
+  "low_priority_updates": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global, Session",
+    "type": "enum"
+  },
+  "innodb_api_enable_binlog": {
+    "default": "OFF",
+    "dynamic": "No",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "innodb_rollback_on_timeout": {
+    "default": "OFF",
+    "dynamic": "No",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "log_syslog_include_pid": {
+    "default": "ON",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "delay_key_write": {
+    "default": "ON",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF",
+      "ALL"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "log_timestamps": {
+    "default": "UTC",
+    "dynamic": "Yes",
+    "enum_values": [
+      "UTC",
+      "SYSTEM"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "innodb_stats_auto_recalc": {
+    "default": "ON",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "show_compatibility_56": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "query_cache_wlock_invalidate": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global, Session",
+    "type": "enum"
+  },
+  "end_markers_in_json": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global, Session",
+    "type": "enum"
+  },
+  "skip_external_locking": {
+    "default": "ON",
+    "dynamic": "No",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "innodb_flush_neighbors": {
+    "default": "1",
+    "dynamic": "Yes",
+    "enum_values": [
+      "0",
+      "1",
+      "2"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "old_alter_table": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global, Session",
+    "type": "enum"
+  },
+  "session_track_transaction_info": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "OFF",
+      "STATE",
+      "CHARACTERISTICS"
+    ],
+    "scope": "Global, Session",
+    "type": "enum"
+  },
+  "innodb_ft_enable_stopword": {
+    "default": "ON",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global, Session",
+    "type": "enum"
+  },
+  "innodb_deadlock_detect": {
+    "default": "ON",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "sync_frm": {
+    "default": "ON",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "log_queries_not_using_indexes": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "flush": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "innodb_optimize_fulltext_only": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "log_slow_admin_statements": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "check_proxy_users": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "log_bin_trust_function_creators": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "master_verify_checksum": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "innodb_print_all_deadlocks": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "innodb_stats_method": {
+    "default": "nulls_equal",
+    "dynamic": "Yes",
+    "enum_values": [
+      "nulls_equal",
+      "nulls_unequal",
+      "nulls_ignored"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "innodb_api_enable_mdl": {
+    "default": "OFF",
+    "dynamic": "No",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "innodb_stats_persistent": {
+    "default": "ON",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  },
+  "session_track_state_change": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global, Session",
+    "type": "enum"
+  },
+  "innodb_random_read_ahead": {
+    "default": "OFF",
+    "dynamic": "Yes",
+    "enum_values": [
+      "ON",
+      "OFF"
+    ],
+    "scope": "Global",
+    "type": "enum"
+  }
+}
